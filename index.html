@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSDASAR</title>
+  </head>
+  <body>
+    <script>
+      //   alert("Hello world");
+      // function myFunction(){
+      //     var myVar ="Faza";
+      //     console.log(myVar);
+      // }
+      // console.log(myVar);
+
+      function myFunction() {
+        var myVar = "Faza";
+        if (true) {
+          var myVar = "Fadillah";
+          console.log(myVar);
+        }
+        console.log(myVar);
+      }
+      function myFunction2() {
+        let myVar = "Faza";
+        if (true) {
+          let myVar = "Fadillah";
+          console.log(myVar);
+        }
+        console.log(myVar);
+      }
+
+      const person = {
+        name: "Faza",
+        nilai: 80,
+      };
+
+      person.name = "Muchamad";
+      console.log(person.name);
+      console.log(person);
+
+      // console.log(myVar);
+      myFunction();
+      myFunction2();
+      console.log(" ");
+      var a = 80;
+      if (a === person.nilai) {
+        console.log("Anda lulus Nilai Anda " + person.nilai);
+      } else {
+        console.log("Nilai Anda kurang");
+      }
+
+      var a = "80";
+      if (a === person.nilai && a === person.nilai) {
+        console.log("Anda lulus Nilai Anda " + person.nilai);
+      } else {
+        console.log("Nilai Anda kurang");
+      }
+      console.log(" ");
+      for (i = 1; i <= 10; i++) {
+        if (i % 2) {
+          console.log("Angka Ganjil " + i);
+          document.write(i);
+        }
+      }
+      console.log(" ");
+      for (i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+          console.log("Angka Genap " + i);
+        }
+        document.writeln(i);
+      }
+    </script>
+  </body>
+</html>
